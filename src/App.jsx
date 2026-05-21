@@ -39,7 +39,7 @@ const resetGame = ()=>{
   setMessage(null)
 }
   const choose=(e)=>{
-    setPlayer(()=>setPlayer(e.target.innerText))
+    setPlayer(()=>(e.target.innerText))
  
   }
   const dis= (e)=>{
