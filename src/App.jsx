@@ -40,7 +40,7 @@ const resetGame = ()=>{
 }
   const choose=(e)=>{
     setPlayer(()=>setPlayer(e.target.innerText))
-    console.log(e.target.innerText)
+ 
   }
   const dis= (e)=>{
     const arry=[...board]
@@ -52,6 +52,7 @@ const resetGame = ()=>{
     }
   }
   useEffect(() => {
+    console.log(player)
     setWinner(checkWinner(board))
     
   console.log("checkWinner",winner)
