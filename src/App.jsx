@@ -40,7 +40,7 @@ const resetGame = ()=>{
 }
   const choose=(e)=>{
     setPlayer(()=>setPlayer(e.target.innerText))
-   
+    console.log(player)
   }
   const dis= (e)=>{
     const arry=[...board]
